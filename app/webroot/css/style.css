@@ -1,0 +1,41 @@
+#box-list{
+}
+
+.box-home{
+	width:300px;
+	min-height:250px;
+	border:solid 1px #e5e5e5;
+	background:#ccc;
+	margin:5px 10px;
+	float:left;
+	padding:5px;
+	text-align:center;
+}
+
+.box-home img{
+	max-width:100%;
+}
+
+.shadow-box{
+	-webkit-box-shadow:1px 1px 10px #000;
+	-moz-box-shadow:1px 1px 10px #000;
+	box-shadow:1px 1px 10px #000;
+}
+
+.round-box{
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+.lfloat{
+	float:left;
+}
+
+.rfloat{
+	float:right;
+}
+
+.clearfix{
+	clear:both;
+}
