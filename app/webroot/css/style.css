@@ -1,19 +1,93 @@
-#box-list{
+body{
+	background:#E0E0E0;
+	font-family:"Trebuchet-MS",Arial;
+	margin:0;
+	line-height:25px;
 }
 
-.box-home{
-	width:300px;
+#principal{
+	width:990px;
 	min-height:250px;
-	border:solid 1px #e5e5e5;
-	background:#ccc;
-	margin:5px 10px;
-	float:left;
-	padding:5px;
-	text-align:center;
+	border:solid 1px #fff;
+	padding:10px;
+	margin:20px auto;
+	background:#fff;
 }
 
-.box-home img{
-	max-width:100%;
+h1,h2,h3,h4,h5,h6{
+	font-size:25px;
+	font-weight:bold;
+	margin-bottom:25px;
+}
+
+p{
+	margin:15px 0;
+}
+
+header{
+	position:relative;
+}
+
+#menu-navegacao{
+	position:absolute;
+	right:5px;
+	bottom:5px;
+}
+
+#menu-navegacao ul{
+	overflow:hidden;
+	list-style:none;
+}
+
+#menu-navegacao ul li{
+	float:left;
+	padding:15px;	
+}
+
+#menu-navegacao ul li a{
+	color:#000;
+	text-decoration:none;
+	font-size:18px;
+	padding:5px;
+	background:#ccc;
+}
+
+#banner{
+	width:980px;
+	height:250px;
+	border:solid 5px #999;
+	margin:0 0 30px;
+}
+
+#palestrantes-list{}
+
+#palestrantes-list .palestrante{
+	margin:15px 0;
+}
+
+#palestrantes-list .palestrante p.name{
+	font-weight:bold;
+}
+
+#palestrantes-list .palestrante .palestrante-image{
+	width:150px;
+	height:150px;
+	border:solid 1px #ccc;
+	-webkit-border-radius:80px;
+	-moz-border-radius:80px;
+	border-radius:80px;
+	margin-right:10px;
+}
+
+#palestrantes-list .palestrante .palestrante-brief{
+	width:810px;
+}
+
+footer{}
+footer p{text-align:center;}
+
+.marginAuto{
+	margin:0 auto;
 }
 
 .shadow-box{
