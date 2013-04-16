@@ -107,3 +107,10 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+// Do singular pro plural
+Inflector::rules('plural', array(
+	'irregular' => array(
+		'inscricao' => 'inscricoes'
+	)
+));

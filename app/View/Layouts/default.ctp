@@ -36,6 +36,11 @@
 						'class'=>'menu-como-chegar'
 					),
 					array(
+						'titulo'=>'Inscrições',
+						'href'=>'/inscricoes',
+						'class'=>'menu-inscricoes'
+					),
+					array(
 						'titulo'=>'Sobre o Evento',
 						'href'=>'/sobre-evento',
 						'class'=>'menu-sobre-evento'
