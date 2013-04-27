@@ -31,6 +31,16 @@
 						'class'=>'menu-home'
 					),
 					array(
+						'titulo'=>'Palestras',
+						'href'=>'/palestras',
+						'class'=>'menu-palestras'
+					),
+					array(
+						'titulo'=>'Palestrantes',
+						'href'=>'/palestrantes',
+						'class'=>'menu-palestrantes'
+					),
+					array(
 						'titulo'=>'Como chegar',
 						'href'=>'/como-chegar',
 						'class'=>'menu-como-chegar'

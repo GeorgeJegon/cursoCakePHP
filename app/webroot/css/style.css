@@ -59,6 +59,16 @@ header{
 	margin:0 0 30px;
 }
 
+#palestras-list{}
+
+#palestras-list .palestra-box{margin:15px 0px;border:solid 1px #ccc;padding:10px;}
+
+#palestras-list .palestra-box .palestra-content{}
+
+#palestras-list .palestra-box .palestra-content a{color:#3b5998;font-weight:bold;}
+
+#palestras-list .palestra-box .palestra-content .palestra-nome{font-size:25px;font-weight:bold;color:#3b5998;}
+
 #palestrantes-list{}
 
 #palestrantes-list .palestrante{
