@@ -54,6 +54,11 @@
 						'titulo'=>'Sobre o Evento',
 						'href'=>'/sobre-evento',
 						'class'=>'menu-sobre-evento'
+					),
+					array(
+						'titulo'=>'Painel',
+						'href'=>'/painel',
+						'class'=>'menu-painel'
 					)
 				)		
 			));
