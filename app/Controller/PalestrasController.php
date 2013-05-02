@@ -1,5 +1,7 @@
 <?php
 class PalestrasController extends AppController{
+	public $scaffold = 'painel';
+	
 	public function index(){
 		$params = array(
 			'fields'=>array('Palestra.nome','Palestra.descricao','Palestra.inicio','Palestrante.id','Palestrante.nome'),

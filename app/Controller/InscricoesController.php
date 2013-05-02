@@ -2,6 +2,8 @@
 class InscricoesController extends AppController{
 	public $uses = array('Inscricao');
 	
+	public $scaffold = 'painel';
+	
 	public function inscrever(){
 		$isPost = $this->request->is('post');
 		if($isPost && !empty($this->request->data)){

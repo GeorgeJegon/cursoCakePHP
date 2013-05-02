@@ -29,6 +29,7 @@
 	
 	
 	Router::connect('/palestrante/:nome/:id',array('controller'=>'palestrantes','action'=>'view'),array('pass'=>array('id'),'nome'=>'[a-z0-9-]+','id'=>'[0-9]+'));
+	Router::connect('/painel', array('controller' => 'inscricoes', 'action' => 'index','painel'=>true));
 	Router::connect('/palestras', array('controller' => 'palestras', 'action' => 'index'));
     Router::connect('/palestrantes', array('controller' => 'palestrantes', 'action' => 'index'));
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
