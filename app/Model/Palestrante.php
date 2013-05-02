@@ -1,6 +1,6 @@
 <?php 
 class Palestrante extends AppModel{	
-	public $order = array('nome'=>'ASC');
+	public $order = array('Palestrante.nome'=>'ASC');
 	public $displayField = 'nome';
 	public $hasMany = array('Palestra');
 	
